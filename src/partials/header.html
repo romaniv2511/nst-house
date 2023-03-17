@@ -1,6 +1,11 @@
-<header>
-  <div class="container">
-    <nav>
+<header class="header">
+  <div class="container header__container">
+    <button type="button" class="mobile-menu__burger" aria-expanded="false" data-menu-open>
+      <svg class="mobile-menu__icon" width="28" height="28">
+        <use href="./images/header/sprite-header.svg#burger-menu"></use>
+      </svg>
+    </button>
+    <nav class="nav">
       <a href="/" class="logo">Logo</a>
 
       <ul class="nav__list">
@@ -11,7 +16,37 @@
         <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
       </ul>
     </nav>
-    <a href="" class="header__contact">+38(050)242-02-11</a>
-    <button type="button">Заказать звонок</button>
+    <ul class="contacts">
+      <li class="contacts__item">
+        <a href="" class="contacts__link">
+          <svg class="contacts__icon">
+            <use href="./images/header/sprite-header.svg#phone"></use>
+          </svg>
+        </a>
+      </li>      <li class="contacts__item">
+        <a href="" class="contacts__link">
+          <svg class="contacts__icon">
+            <use href="./images/header/sprite-header.svg#telegram"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <!--    <button type="button">Заказать звонок</button>-->
+  </div>
+  <div class="mobile-menu" data-menu>
+    <button type="button" class="mobile-menu__cross" aria-expanded="false" data-menu-close>X</button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="" class="nav__link">Аренда</a></li>
+        <li class="nav__item"><a href="" class="nav__link">Меню</a></li>
+        <li class="nav__item"><a href="" class="nav__link">Галерея</a></li>
+        <li class="nav__item"><a href="" class="nav__link">О нас</a></li>
+        <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
+      </ul>
+      <ul class="contacts">
+        <li class="contacts__item"></li>
+        <li class="contacts__item"></li>
+      </ul>
+    </nav>
   </div>
 </header>

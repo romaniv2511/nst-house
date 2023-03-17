@@ -1,0 +1,47 @@
+.hero{
+  text-align: center;
+
+  background: linear-gradient(179.35deg, #1C211B 6.96%, rgba(256, 256, 256, 0) 100%),  url("../images/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100% ;
+  background-position: center;
+  //background-position: ;
+}
+
+.hero__image{
+  margin-inline: auto;
+}
+
+.hero__title{
+  margin: 40px 0 20px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 108%;
+  /* or 24px */
+
+
+  color: #FFFFFF;
+}
+.hero_subtitle{
+  font-size: 22px;
+  line-height: 108%;
+  /* or 24px */
+
+
+  color: #FFFFFF;
+}
+
+.hero__list{
+  margin-top: 15px;
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.hero__item_lower{
+  padding-top: 30px;
+}
