@@ -3,6 +3,17 @@ main {
   position: relative;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(15/12);
+  color: #272727;
+  background-color: #ffffff;
+  letter-spacing: 0.03em;
+}
+
 h1,
 h2,
 h3,
