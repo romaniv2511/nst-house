@@ -1,8 +1,10 @@
 @import "./utils/normilize-min";
 @import "./utils/mixins";
+@import "./utils/variables";
 @import "./base/reset";
 @import "base/common";
 //@import './example';
+@import "./components/modal-window";
 @import "./components/header";
 @import "./pages/main/index";
 @import "./components/mobile-menu";

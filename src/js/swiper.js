@@ -5,20 +5,30 @@ import Swiper, { Navigation, Pagination } from 'swiper';
 
 
 // init Swiper:
-  const swiper = new Swiper('.swiper', {
+  const swiper = new Swiper('.gallery-swiper', {
   modules: [Navigation],
 
     // Optional parameters
     loop: true,
 
 
-
     // Navigation arrows
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.gallery-button-next',
+      prevEl: '.gallery-button-prev',
     },
 
     // And if we need scrollbar
 
   });
+
+  const reviewSwiper = new Swiper(".reviewSwiper",{
+    modules: [Navigation],
+    loop: true,
+
+    navigation: {
+      nextEl: '.review-next',
+      prevEl: '.review-prev',
+    },
+
+  })
